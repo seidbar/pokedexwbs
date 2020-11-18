@@ -136,7 +136,7 @@ function Pokedex() {
                 <PokeCard
                   element={element}
                   name={element.name}
-                  img={element ? element.sprites.front_default : null}
+                  img={element.sprites ? element.sprites.front_default : null}
                   types={element.types}
                   number={element.id}
                 />
