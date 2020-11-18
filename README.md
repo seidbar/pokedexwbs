@@ -16,6 +16,7 @@ On the website you will have the chance to:
   ![Berries](src/Components/Screenshots/BerriesComponent.PNG)
 
 The project is going to demonstrate how React can be used for creating website and how to fetch data from a public API.
+You can see a live demo on [Heroku](https://pokedex-22.herokuapp.com/)
 
 **Tech Stack** used in this project:
 
