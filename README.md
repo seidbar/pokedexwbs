@@ -1,5 +1,6 @@
 # PokéWorld
 
+You can see a live demo on [Heroku](https://pokedex-22.herokuapp.com/)
 ## Description
 
 This group work will provide you more details and information about the creatures called [Pokémon](https://en.wikipedia.org/wiki/Pok%C3%A9mon).
@@ -16,7 +17,7 @@ On the website you will have the chance to:
   ![Berries](src/Components/Screenshots/BerriesComponent.PNG)
 
 The project is going to demonstrate how React can be used for creating website and how to fetch data from a public API.
-You can see a live demo on [Heroku](https://pokedex-22.herokuapp.com/)
+
 
 **Tech Stack** used in this project:
 
