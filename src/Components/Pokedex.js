@@ -6,7 +6,7 @@ import "./Styles/Fight.css";
 
 function Pokedex() {
   const [pokelist, setPokelist] = useState();
-  const [error] = useState(false);
+  const [error, setError] = useState(false);
   const [pokeNum, setPokeNum] = useState(1);
   const [pokeSearch, setPokeSearch] = useState([]);
   const [toggle, setToggle] = useState(false);
@@ -56,7 +56,7 @@ function Pokedex() {
     const pendingPromises = [];
     for (let i = pokeNum; i <= pokeNum + 19; i++) {
       pendingPromises.push(
-        fetch(`http://pokeapi.co/api/v2/pokemon/${i}`)
+        fetch(`https://pokeapi.co/api/v2/pokemon/${i}`)
           .then((data) => data.json())
           .then((data) => data)
           .catch((e) => e)
